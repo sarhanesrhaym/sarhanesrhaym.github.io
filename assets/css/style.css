@@ -283,6 +283,14 @@ p {
     max-width: 400px;
     margin: 0 auto;
 }
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: var(--shadow-lg);
+}
 
 .avatar-placeholder {
     width: 300px;
@@ -1150,4 +1158,5 @@ p {
         height: 50px;
         font-size: 1.5rem;
     }
+    
 }
