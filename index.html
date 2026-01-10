@@ -13,7 +13,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
     
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -41,7 +41,7 @@
                 <li><a href="#competences" class="nav-link">Compétences</a></li>
                 <li><a href="#certifications" class="nav-link">Certifications</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="CV_Sarhane_Aymane.pdf" class="btn-nav" target="_blank" rel="noopener noreferrer">CV PDF</a></li>
+                <<li><a href="CV_Sarhane_Aymane.pdf" class="btn-nav" target="_blank" rel="noopener noreferrer">CV PDF</a></li>
             </ul>
         </div>
     </nav>
@@ -79,7 +79,9 @@
             <div class="hero-image">
                 <div class="image-wrapper">
                     <!-- Remplacez par votre photo -->
-                    <img src="assets/images/photo-profil.jpg" alt="Sarhane Aymane" class="profile-photo">
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
                     <div class="floating-elements">
                         <div class="floating-element py">
                             <i class="fab fa-python"></i>
@@ -103,9 +105,9 @@
             <div class="about-content">
                 <div class="about-text">
                     <h3>Profil Professionnel</h3>
-                   <p>Étudiant en M1 <strong> Intelligence Artificielle et Internet des Objets (IoT)</strong>, je me spécialise dans le développement de solutions innovantes à l'intersection du <strong>machine learning</strong>, du <strong>deep learning</strong>, et des <strong>systèmes connectés</strong>, avec une maîtrise croissante de la programmation Python.</p>
-
-                   <p>En cours d'acquisition d'une <strong>double compétence en analyse intelligente des données et en architecture des systèmes IoT</strong>, je me forme à la chaîne complète de valorisation des données - depuis leur acquisition via des capteurs connectés jusqu'à leur transformation en insights actionnables grâce à des algorithmes d'IA avancés.</p>
+                    <p>Diplômé en <strong>Intelligence Artificielle et Ingénierie des Données</strong>, je me spécialise dans le développement de solutions innovantes utilisant le machine learning, le deep learning et la programmation Python.</p>
+                    
+                    <p>Mon objectif est de contribuer à des projets variés en <strong>analyse de données</strong>, <strong>développement d'algorithmes</strong> et <strong>solutions d'IA</strong> qui apportent une réelle valeur ajoutée.</p>
                     
                     <div class="education-timeline">
                         <h3>Parcours Académique</h3>
@@ -137,15 +139,15 @@
                 
                 <div class="about-stats">
                     <div class="stat-card">
-                        <div class="stat-number">3+</div>
-                        <div class="stat-label">Projets IA Complets</div>
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projets Complets</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-number">100%</div>
                         <div class="stat-label">Python & ML</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-number">2</div>
+                        <div class="stat-number">3</div>
                         <div class="stat-label">Certifications Tech</div>
                     </div>
                     <div class="stat-card">
@@ -196,7 +198,7 @@
                     </div>
                     
                     <div class="project-links">
-                        <a href="https://github.com/sarhanesrhaym/pharmacy_stock_management-main" class="project-link" title="Code source" target="_blank">
+                        <a href="#" class="project-link" title="Code source">
                             <i class="fab fa-github"></i> Code
                         </a>
                         <a href="#" class="project-link" title="Voir la démo">
@@ -243,44 +245,95 @@
                     </div>
                     
                     <div class="project-links">
-                        <a href="https://github.com/sarhanesrhaym/Casablanca_traffic-analyse_streamlit" class="project-link" title="Code source" target="_blank">
+                        <a href="#" class="project-link" title="Code source">
                             <i class="fab fa-github"></i> Code
                         </a>
-                        <a href="https://traffic-analysis.streamlit.app" class="project-link" title="Voir la démo" target="_blank">
+                        <a href="#" class="project-link" title="Voir la démo">
                             <i class="fas fa-chart-line"></i> Dashboard
                         </a>
                     </div>
                 </article>
 
-                <!-- Projet 3 (Placeholder pour futur projet ML) -->
+                <!-- Projet 3 -->
                 <article class="project-card">
                     <div class="project-header">
-                        <div class="project-type">Machine Learning</div>
-                        <div class="project-date">À venir</div>
+                        <div class="project-type">Machine Learning & Sécurité</div>
+                        <div class="project-date">2024</div>
                     </div>
-                    <h3 class="project-title">Système de Recommandation Intelligent</h3>
-                    <p class="project-description">Développement d'un système de recommandation utilisant des algorithmes de collaborative filtering et deep learning.</p>
+                    <h3 class="project-title">Détection d'Attaques Brute Force par IA</h3>
+                    <p class="project-description">Système de détection d'attaques brute force dans les réseaux IIoT utilisant le machine learning pour analyser les comportements d'authentification et les patterns de trafic réseau.</p>
                     
                     <div class="project-features">
-                        <h4>Technologies envisagées :</h4>
+                        <h4>Objectifs :</h4>
                         <ul>
-                            <li>TensorFlow / PyTorch</li>
-                            <li>Algorithmes de clustering</li>
-                            <li>API REST avec FastAPI</li>
-                            <li>Déploiement Docker</li>
+                            <li>Structuration du trafic réseau en logs orientés protocole</li>
+                            <li>Analyse des comportements d'authentification</li>
+                            <li>Classification malveillant vs. légitime</li>
+                            <li>Détection de patterns de tentatives répétées</li>
                         </ul>
                     </div>
                     
                     <div class="tech-stack">
-                        <span class="tech-tag tensorflow">TensorFlow</span>
-                        <span class="tech-tag fastapi">FastAPI</span>
-                        <span class="tech-tag docker">Docker</span>
-                        <span class="tech-tag ml">ML Ops</span>
+                        <span class="tech-tag python">Python</span>
+                        <span class="tech-tag sklearn">scikit-learn</span>
+                        <span class="tech-tag jupyter">Jupyter</span>
+                        <span class="tech-tag ml">Machine Learning</span>
                     </div>
                     
-                    <div class="project-coming-soon">
-                        <i class="fas fa-rocket"></i>
-                        <span>Projet en préparation</span>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">IIoT</span>
+                            <span class="metric-label">Sécurité Réseau</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">ML</span>
+                            <span class="metric-label">Classification</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/sarhanesrhaym/bruteforce_attaque_detection" class="project-link" title="Code source" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Projet 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-type">Simulation & Graphisme</div>
+                        <div class="project-date">2024-2025</div>
+                    </div>
+                    <h3 class="project-title">CosmoUIT - Simulateur de Système Solaire 2D</h3>
+                    <p class="project-description">Simulateur interactif du système solaire développé en C++ avec SFML. Simulation réaliste des orbites planétaires basée sur la physique newtonienne et les lois de Kepler.</p>
+                    
+                    <div class="project-features">
+                        <h4>Fonctionnalités :</h4>
+                        <ul>
+                            <li>8 planètes avec caractéristiques réelles</li>
+                            <li>Système de comètes avec attraction gravitationnelle</li>
+                            <li>Contrôle de vitesse (x0.125 à x64)</li>
+                            <li>Zoom, déplacement caméra et visualisation d'orbites</li>
+                            <li>Interface NASA-inspired avec données éducatives</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-tag cpp">C++</span>
+                        <span class="tech-tag sfml">SFML</span>
+                        <span class="tech-tag cmake">CMake</span>
+                        <span class="tech-tag physics">Physique</span>
+                    </div>
+                    
+                    <div class="project-architecture">
+                        <h4>Architecture :</h4>
+                        <p>POO avancée - Simulation temps réel - Interface graphique interactive</p>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/sarhanesrhaym/2D-3D-solar_simulator" class="project-link" title="Code source" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> Code
+                        </a>
                     </div>
                 </article>
             </div>
@@ -321,7 +374,7 @@
                         <div class="skill-item">
                             <span class="skill-name">PHP</span>
                             <div class="skill-bar">
-                                <div class="skill-level" style="width: 75%" data-width="75%"></div>
+                                <div class="skill-level" style="width: 75%"></div>
                             </div>
                             <span class="skill-percent">75%</span>
                         </div>
@@ -482,16 +535,16 @@
                     </div>
                     
                     <div class="social-links">
-                        <a href="https://github.com/sarhanesrhaym" class="social-link" title="Visitez mon GitHub" target="_blank">
+                        <a href="#" class="social-link" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/sarhane-aymane-010392318" class="social-link" title="Connectez sur LinkedIn" target="_blank">
+                        <a href="#" class="social-link" title="LinkedIn">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="mailto:aymanesarhane999@gmail.com?subject=Contact portfolio&body=Bonjour Sarhane," class="social-link" title="Envoyez-moi un email">
-                            <i class="fas fa-envelope"></i>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="CV_Sarhane_Aymane.pdf" class="social-link" title="Télécharger mon CV" download="CV_Sarhane_Aymane.pdf">
+                        <a href="CV_Sarhane_Aymane.pdf" class="social-link" title="Télécharger CV" download="CV_Sarhane_Aymane.pdf">
                             <i class="fas fa-file-pdf"></i>
                         </a>
                     </div>
@@ -565,8 +618,3 @@
     <script src="assets/js/script.js"></script>
 </body>
 </html>
-
-
-
-
-
