@@ -282,6 +282,7 @@ p {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .avatar-placeholder {
@@ -315,6 +316,8 @@ p {
     margin: 0 auto;
     transition: all 0.4s ease;
     animation: neonPulse 3s ease-in-out infinite;
+    position: relative;
+    z-index: 1;
 }
 
 .profile-image:hover {
@@ -351,6 +354,8 @@ p {
     height: 100%;
     top: 0;
     left: 0;
+    z-index: 2;
+    pointer-events: none;
 }
 
 .floating-element {
@@ -365,6 +370,7 @@ p {
     font-size: 2rem;
     box-shadow: var(--shadow-lg);
     animation: float 3s ease-in-out infinite;
+    pointer-events: all;
 }
 
 .floating-element.py {
@@ -666,8 +672,3 @@ p {
 
 .project-link:hover {
     background-color: var(--primary);
-    color: white;
-}
-
-/* ===== SKILLS SECTION ===== */
-.skills-container 
